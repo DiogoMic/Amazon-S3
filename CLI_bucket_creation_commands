@@ -1,8 +1,7 @@
 **NOTE** : To use the following examples, you must have the AWS CLI installed and configured.
 
-```bash
-aws s3 presign s3://my-bucket-name/ private-object
-```
+``` aws s3 presign s3://my-bucket-name/ private-object ```
+
 
 > The above `presign` command generates a pre-signed URL for a specified bucket and key that is valid for one hour.
 > 
